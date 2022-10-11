@@ -1,0 +1,12 @@
+package com.test;
+
+public interface ParticipateA extends Comapny {
+
+	public int eid = 1;
+	public String stream = "Java";
+	public String project = "Apereal";
+	
+	public String getParticipateA();
+	
+	
+}

@@ -1,0 +1,37 @@
+package com.algorithm;
+
+class Cricketer {
+	String name;
+	String state;
+	String country;
+	String color;
+	int age;
+	String[] role;
+	
+	public Cricketer(String name, String state, String country, String color, int age) {
+		this.name = name;
+		this.state = state;
+		this.country = country;
+		this.color = color;
+		this.age = age;
+	}
+	
+	public String getBehaviour() {
+		String behaviour = name + " is a ";
+		
+		for (int i = 0; i < role.length; i++) {
+			behaviour += role[i];
+			behaviour += " and ";
+		}
+		
+		return behaviour;
+	}
+}
+
+public class SportsMan {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

@@ -1,0 +1,28 @@
+package com.test;
+
+public class Hybrid implements ParticipateA, ParticipateB {
+	
+	public String companyName;
+	public int eid;
+	public String stream;
+	public String project;
+
+	@Override
+	public void setParticipateB(companyName, eid, stream, project) {
+		// TODO Auto-generated method stub
+		this.companyName = companyName;
+		this.eid = eid;
+		this.stream = stream;
+		this.project = project;
+	}
+
+	@Override
+	public void setParticipateA(companyName, eid, stream, project) {
+		// TODO Auto-generated method stub
+		his.companyName = companyName;
+		this.eid = eid;
+		this.stream = stream;
+		this.project = project;
+	}
+
+}

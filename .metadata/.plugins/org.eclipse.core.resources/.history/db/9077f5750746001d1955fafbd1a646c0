@@ -1,0 +1,11 @@
+package com.interfacetest;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Access ac = new Access();
+		ac.show1();
+		ac.show2();
+	}
+
+}

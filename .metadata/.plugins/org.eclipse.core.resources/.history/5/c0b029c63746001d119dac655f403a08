@@ -1,0 +1,9 @@
+package com.method.overriding;
+
+public class Parent {
+
+	public static void main(int n) {
+		System.out.println("Overloaded main");
+	}
+	
+}

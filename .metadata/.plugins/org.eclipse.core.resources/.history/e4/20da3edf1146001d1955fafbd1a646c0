@@ -1,0 +1,9 @@
+package com.test;
+
+public class ThisDemoParent {
+
+	void display() {
+		System.out.println("From parent");
+	}
+	
+}

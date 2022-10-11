@@ -1,0 +1,13 @@
+package com.algorithm;
+
+public class StringBufferTest {
+
+	public static void main(String[] args) {
+		StringBuffer sb = new StringBuffer("accenture");
+		
+		System.out.println(sb);
+		
+		sb.insert(2, 'c');
+	}
+
+}

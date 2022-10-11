@@ -1,0 +1,36 @@
+package com.test;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		List<Employee> list = new ArrayList<>();
+		
+		list.add(new Employee(1, "Price", 250000));
+		list.add(new Employee(2, "David", 150000));
+		list.add(new Employee(3, "Abc", 200000));
+		list.add(new Employee(4, "John", 100000));
+		list.add(new Employee(5, "Bravo", 300000));
+		
+//		Collections.sort(list, new Comparator<Employee>() {
+//
+//			@Override
+//			public int compare(Employee o1, Employee o2) {
+//				return o2.salary - o1.salary;
+//			}
+//			
+//		});
+		
+		Collections.sort(list);
+		
+		for (Employee emp : list) {
+			System.out.println(emp.name);
+			System.out.println(emp.salary);
+		}
+	}
+
+}

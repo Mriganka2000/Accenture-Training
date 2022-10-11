@@ -1,0 +1,42 @@
+package com.acc.lkm;
+
+public class Employee {
+	
+	private int id;
+	private int age;
+	private double salary;
+	private double variablePay;
+	
+	public Employee(int id, int age, double salary, double variablePay) {
+		this.id = id;
+		this.age = age;
+		this.salary = salary;
+		this.variablePay = variablePay;
+	}
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public double getSalary() {
+		return salary;
+	}
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+	public double getVariablePay() {
+		return variablePay;
+	}
+	public void setVariablePay(double variablePay) {
+		this.variablePay = variablePay;
+	}
+
+}

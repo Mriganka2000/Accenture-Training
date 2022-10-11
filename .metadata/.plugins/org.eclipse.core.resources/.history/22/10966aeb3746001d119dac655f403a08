@@ -1,0 +1,14 @@
+package com.method.overriding;
+
+public class Main extends Parent {
+	
+	public void show(int n) {
+		System.out.println("Overloaded main");
+	}
+	
+	public static void main(String[] args) {
+		Parent p = new Main();
+		p.show(10);
+	}
+
+}

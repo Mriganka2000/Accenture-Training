@@ -1,0 +1,17 @@
+package com.algorithm;
+
+import java.util.Scanner;
+
+public class TestExceptionTrainee {
+
+	public static void checkTrainee() {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter the trainee name :- ");
+		String name = sc.next();
+	}
+	
+	public static void main(String[] args) {
+		checkTrainee();
+	}
+
+}

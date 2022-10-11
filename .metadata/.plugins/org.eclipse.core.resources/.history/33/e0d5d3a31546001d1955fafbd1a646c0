@@ -1,0 +1,11 @@
+package com.test;
+
+public class FinalVariable {
+
+	private final int val = 100;
+	
+	public int getVal() {
+		return val;
+	}
+	
+}

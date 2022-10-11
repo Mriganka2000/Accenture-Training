@@ -1,0 +1,32 @@
+package com.polymorphism;
+
+class Parent {
+	
+	public void show() {
+		System.out.println("From parent");
+	}
+	
+}
+
+class Child extends Parent {
+	
+	public void show() {
+//		super.show();
+		System.out.println("From child");
+	}
+	
+}
+
+public class MethodOverriding {
+
+	public static void main(String[] args) {
+//		Up casting
+		Parent p = new Parent();
+		p.show();
+		
+//		Down casting
+		Child c = (Child)p;
+		c.show();
+	}
+
+}

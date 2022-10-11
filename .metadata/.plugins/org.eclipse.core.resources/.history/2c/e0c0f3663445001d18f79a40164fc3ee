@@ -1,0 +1,10 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		int a = 20;
+		Integer val = new Integer(a);
+		System.out.println(val.toString());
+	}
+
+}

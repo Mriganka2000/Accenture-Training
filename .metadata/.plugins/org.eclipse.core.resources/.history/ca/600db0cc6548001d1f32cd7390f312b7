@@ -1,0 +1,9 @@
+package com.algorithm;
+
+public class TrainingException extends Exception {
+
+	public TrainingException() {
+		super("Trainee will not enter");
+	} 
+
+}

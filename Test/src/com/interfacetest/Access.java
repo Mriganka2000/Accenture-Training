@@ -1,0 +1,19 @@
+package com.interfacetest;
+
+public class Access implements Interface1, Interface2 {
+
+	@Override
+	public void show1() {
+		System.out.println("From Interface1");
+	}
+
+	@Override
+	public void show2() {
+		System.out.println("From Interface2");
+	}
+	
+	public void show() {
+		System.out.println("From parent");
+	}
+	
+}

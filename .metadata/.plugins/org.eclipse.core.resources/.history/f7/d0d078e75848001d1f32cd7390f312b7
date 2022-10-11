@@ -1,0 +1,27 @@
+package com.algorithm;
+
+public class ExceptionTest {
+	
+	public static int printNumber(int p) {
+		p = p + 1;
+		System.out.println(p);
+		return printNumber(p);
+	}
+
+	public static void main(String[] args) {
+//		try {
+			int[] arr = new int[10];
+			arr[10] = 100;
+			
+			String num = "123ad";
+			System.out.println(Integer.parseInt(num));
+//		}
+//		catch (NumberFormatException | ArrayIndexOutOfBoundsException e) {
+//			e.printStackTrace();
+//		}
+//		finally {
+//			printNumber(0);
+//		}
+	}
+	
+}

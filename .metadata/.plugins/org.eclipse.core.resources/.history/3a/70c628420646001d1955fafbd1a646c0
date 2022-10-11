@@ -1,0 +1,7 @@
+package com.interfacetest;
+
+public class Access implements Interface1, Interface2{
+
+	
+	
+}

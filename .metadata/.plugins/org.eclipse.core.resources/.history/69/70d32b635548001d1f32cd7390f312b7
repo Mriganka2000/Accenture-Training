@@ -1,0 +1,13 @@
+package com.algorithm;
+
+public class ExceptionTest {
+
+	public static void main(String[] args) {
+		int[] arr = new int[10];
+		arr[10] = 100;
+		
+		String num = "123ad";
+		System.out.println(Integer.parseInt(num));
+	}
+	
+}

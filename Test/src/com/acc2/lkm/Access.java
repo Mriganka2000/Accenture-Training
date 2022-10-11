@@ -1,0 +1,21 @@
+package com.acc2.lkm;
+
+import java.util.Scanner;
+
+import com.acc.lkm.*;
+
+public class Access {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the employee id :- ");
+		int id = sc.nextInt();
+		System.out.print("Enter the employee age :- ");
+		int age = sc.nextInt();
+		System.out.print("Enter the salary :- ");
+		double salary = sc.nextDouble();
+		Employee emp = new Employee(id, age, salary);
+		System.out.print("Variable pay :- " + emp.getVariablePay());
+	}
+
+}

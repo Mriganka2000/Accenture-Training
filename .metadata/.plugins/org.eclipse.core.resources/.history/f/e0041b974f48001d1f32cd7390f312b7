@@ -1,0 +1,15 @@
+package com.test;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		 ParticipateA a = new Hybrid();
+		 ParticipateB b = new Hybrid();
+		 
+		 a.setParticipateA("Accenture", 1, "Java", "Apereal");
+		 b.setParticipateB("Accenture", 2, "SAP", "Medica");
+		 
+		 
+	}
+	
+}

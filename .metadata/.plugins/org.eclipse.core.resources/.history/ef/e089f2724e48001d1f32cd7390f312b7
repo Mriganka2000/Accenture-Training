@@ -1,0 +1,7 @@
+package com.test;
+
+public interface ParticipateA extends Comapny {
+	
+	public void getParticipateA(companyName, eid, stream, project);
+	
+}

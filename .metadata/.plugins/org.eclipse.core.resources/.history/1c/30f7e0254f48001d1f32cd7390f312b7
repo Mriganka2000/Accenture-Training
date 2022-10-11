@@ -1,0 +1,12 @@
+package com.test;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Hybrid hybrid = new Hybrid();
+		
+		System.out.println(hybrid.getParticipateA());
+		System.out.println(hybrid.getParticipateB());
+	}
+	
+}

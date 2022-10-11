@@ -1,0 +1,11 @@
+package com.test;
+
+public interface ParticipateB extends Comapny {
+
+	public int Eid = 2;
+	public String stream = "SAP";
+	public String project = "Medica";
+	
+	public String getParticipateB();
+	
+}

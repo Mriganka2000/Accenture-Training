@@ -1,0 +1,13 @@
+package com.algorithm;
+
+public class Test {
+
+	public static void main(String[] args) {
+		double radius = 3;
+		final double PI = 3.1415926535898;
+		double area = PI * radius * radius;
+		
+		System.out.println(area);
+	}
+
+}

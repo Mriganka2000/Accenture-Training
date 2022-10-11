@@ -1,0 +1,33 @@
+package com.algorithm;
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class CheckedExceptionTest {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		try {
+//			FileReader fileReader = new FileReader("acc.txt");
+			try {
+				System.out.print("Enter the number");
+				int x = sc.nextInt();
+			}
+			catch (ArithmeticException e) {
+				System.err.println(e);
+			}
+			try {
+				System.out.print("Enter the company name :- ");
+				String name = sc.next();
+			}
+			catch (NullPointerException e) {
+				System.err.println(e);
+			}
+		} catch (IOException e) {
+			System.err.println(e);
+		}
+	}
+
+}
